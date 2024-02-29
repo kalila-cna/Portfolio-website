@@ -50,6 +50,10 @@
       text-align: center;
     }
 
+    footer .nav-links a{
+      text-underline-offset: 0.4rem;
+    }
+
 
 
     
@@ -128,6 +132,10 @@
     .coding-details{
       flex-direction: column;
       gap: 0rem;
+    }
+
+    .copyright{
+      font-size: small;
     }
 
 
