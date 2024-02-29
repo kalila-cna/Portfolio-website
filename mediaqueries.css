@@ -1,0 +1,135 @@
+@media screen and (max-width:1200px) {
+   
+   #desktop-nav{
+      display: none;
+   }
+
+   #hamburger-nav{
+      display: flex;
+   }
+
+   .arrow{
+      display: none;
+   }
+
+   section{
+      margin: 0 5%;
+      height: fit-content;
+   }
+
+   .project-container{
+      flex-wrap: wrap;
+    }
+
+    #profile{
+      display: block;
+      justify-content: center;
+    }
+
+    .section_pic_container{
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+
+
+    #about{
+      margin-top:15rem;;
+      
+    }
+
+
+    .about-container-2{
+      display: block;
+    }
+
+    footer .nav-links{
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+
+
+    
+
+   
+   
+}
+
+@media screen and (max-width:1400px) {
+    #contact,
+    #project {
+      height: fit-content;
+    }
+
+    #project{
+      margin-top: 5rem;
+    }
+
+    #contact{
+      margin-top: 7rem;
+    }
+
+    
+
+    #coding-profiles{
+      margin-top: 5rem;
+    }
+   
+}
+
+@media screen and (max-width:600px) {
+   .contact-details p{
+      font-size: medium;
+   }
+
+   .contact-container{
+      flex-direction: column;
+   }
+
+   #profile .section_pic_container{
+      height: 46vw;
+      width: auto;
+      justify-content: center;
+   }
+
+
+   .about-container-3{
+      display: block;
+   }
+
+
+
+   .logo {
+      font-size: 1.5rem;
+    }
+
+    .experience-container-1{
+      display: block;
+    }
+
+    .experience-container-2,.about-container-4{
+      margin-bottom: 1rem;
+    }
+
+    .section_textp1,.about-container p,.experience-container p,.project-title-container p{
+      font-size: 1.25rem;
+    }
+    .section_text h1,.about-container h1,.experience-container h1,.project-title-container h1{
+      font-size: 2rem;
+    }
+
+    #about{
+      margin-top: 4rem;
+    }
+
+    .coding-details{
+      flex-direction: column;
+      gap: 0rem;
+    }
+
+
+}
+

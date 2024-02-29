@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalila CNA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+        <nav id="desktop-nav">
+            <div>
+                <p class="logo">Kalila CNA</p>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#coding-profiles">Coding profiles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div>
+                <p class="logo">Kalila CNA</p>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <div class="menu-links">
+                        <li><a href="#about" onclick="togglemenu()">About</a></li>
+                        <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                        <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                        <li><a href="#coding-profiles" onclick="togglemenu()">Coding profiles</a></li>
+                        <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </div>
+
+            </div>
+           
+            
+
+        </nav>
+        <section id="profile">
+            <div class="section_pic_container">
+                <img src="./assets/profile-pic.png" alt="My profile pic"/>
+            </div>
+            <div class="section_text">
+                <p>Hello, I'm </p>
+                <h1>Kalila CNA</h1>
+                <p class="section_textp1">Aspiring Software Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-1"; onclick="window.open('./assets/resume.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-2"; onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+
+                <div class="socials">
+                    <img class="icons"; src="./assets/linkedin.png"; onclick="location.href='https://www.linkedin.com/in/kalila-cna/'"/>
+                    <img class="icons" src="./assets/github.png"; onclick="location.href='https://github.com/kalila-cna'"/>
+                </div>
+            </div>
+            
+        </section>
+        <section id="about">
+            <div class="about-container">
+                <p>Get to know more</p>
+                <h1>About Me</h1>
+            </div>
+
+            <div class="about-container-2">
+                <div class="section_pic_container">
+                    <img class="pic-2" src="./assets/profile-pic-2.jpg" alt="My causual image"/>
+                </div>
+
+                <div class="about-container-1">
+                    <div class="about-container-3">
+                        <div class="about-container-4">
+                            <img src="./assets/experience.png" alt="experience" class="icons"/>
+                            <h3>Experience</h3>
+                            <p>Intern at Kaar Technologies <br/> Nov '22 - Apr '23</p>
+                        </div>
+                        <div class="about-container-4">
+                            <img src="./assets/education.png" alt="education" class="icons"/>
+                            <h3>Education</h3>
+                            <p>B.E CSE at VCET, Madurai <br/> Mahatma montessori Hr. sec school.</p>
+                        </div>
+                    </div>
+                    <p>
+                        ★A final-year Computer Science and Engineering student who is passionate about technology and driven by curiosity!
+An innovative problem solver and have a keen interest in Full-Stack Development and also a job seeker to secure a challenging position in a
+reputed organization to expand my learnings, knowledge, and skills.
+                    </p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow down" onclick="location.href='./#experience'" class="icons arrow"/>
+
+        </section>
+        <section id="experience">
+            <div class="experience-container">
+                <p>Explore my</p>
+                <h1>Experience</h1>
+            </div>
+
+            <div class="experience-container-1">
+                <div class="experience-container-2">
+                    <img src="./assets/kaar-tech-logo.png" alt="kaar tech logo" class="company-logo"/>
+                    <h2>Kaar Technologies</h2>
+                    <p>Internship - Nov '22 - Apr '23 </p>
+                    <p class="experience-details"> <br/>• Developed web applications using open-source technologies with user-friendly interfaces and efficient backends
+                        and used Power BI for insightful reporting<br/>
+                        • In-depth understanding of organizational business processes, ERP and SAP<br/>
+                        • Managed and led a team of 5+ members in figuring out the Order to Cash business process of an organization</p>
+                </div>
+                <div class="experience-container-2">
+                    <h2>Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>HTML</h3>
+                              <p>Experienced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>CSS</h3>
+                              <p>Experienced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>Java</h3>
+                              <p>Experienced</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>Angular</h3>
+                              <p>Intermedaite</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>Typescript</h3>
+                              <p>Intermedaite</p>
+                            </div>
+                          </article>
+                          <article>
+                            <img
+                              src="./assets/checkmark.png"
+                              alt="Experience icon"
+                              class="icons"
+                            />
+                            <div>
+                              <h3>Material UI</h3>
+                              <p>Intermedaite</p>
+                            </div>
+                          </article>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow down" onclick="location.href='./#project'" class="icons arrow"/>
+        </section>
+        <section id="project">
+            <div class="project-title-container">
+                <p>Browse My Recent</p>
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-details-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="project 1" class="project-pic"/>
+                    </div>         
+                    <h3>Sales Forecasting Application</h3>
+                    <button class="btn btn-1" onclick="location.href='https://github.com/kalila-cna/Sales-forecasting-app'">Github</button>
+                </div>
+                <div class="project-details-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="project 2" class="project-pic"/>
+                    </div> 
+                    <h3>Library Management System</h3>
+                    <button class="btn btn-1" onclick="location.href='https://github.com/kalila-cna/library-management-system'">Github</button>
+                </div>
+                <div class="project-details-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="project 3" class="project-pic"/>
+                    </div> 
+                    <h3>Weather Application</h3>
+                    <button class="btn btn-1" onclick="location.href='https://github.com/kalila-cna/weather-app'">Github</button>
+                </div>
+
+            </div>
+            <img src="./assets/arrow.png" alt="arrow down" onclick="location.href='./#coding-profiles'" class="icons arrow"/>
+
+        </section>
+        <section id="coding-profiles">
+            <div class="project-title-container">
+                <p>Dive Into My</p>
+                <h1>Coding Profiles</h1>
+            </div>
+
+            <div class="coding-details">
+                <div class="coding-details-1">
+                    <img src="./assets/gfg.png" alt="gfg" class="coding-logo"/>
+                </div>
+                
+                <div class="coding-details-1">
+                    <h2>Geeks For Geeks</h2>
+                    <p>I have solved 350+ problems with a coding score of 500+</p>
+                </div>
+                <div class="coding-details-1">
+                    <button class="btn btn-1" onclick="location.href='https://auth.geeksforgeeks.org/user/kalila_cna/'">
+                        Profile Link
+                    </button>
+                </div>
+                
+                
+            </div>
+            <div class="coding-details">
+                <div class="coding-details-1">
+                    <img src="./assets/hackerrank.png" alt="gfg" class="coding-logo"/>
+                </div>
+                
+                <div class="coding-details-1">
+                    <h2>Hacker Rank</h2>
+                    <p>I have solved 100+ problems and cleared 4 certifications</p>
+                </div>
+                <div class="coding-details-1">
+                    <button class="btn btn-1" onclick="location.href='https://www.hackerrank.com/profile/cna_kalila'">
+                        Profile Link
+                    </button>
+                </div>
+                
+                
+            </div>
+            <div class="coding-details">
+                <div class="coding-details-1">
+                    <img src="./assets/leetcode.png" alt="gfg" class="coding-logo"/>
+                </div>
+                
+                <div class="coding-details-1">
+                    <h2>Leetcode</h2>
+                    <p>I have solved 50+ coding and SQL problems</p>
+                </div>
+                <div class="coding-details-1">
+                    <button class="btn btn-1" onclick="location.href='https://leetcode.com/kalila_cna/'">
+                        Profile Link
+                    </button>
+                </div>
+                
+                
+            </div>
+            <img src="./assets/arrow.png" alt="arrow down" onclick="location.href='./#contact'" class="icons arrow"/>
+
+        </section>
+        <section id="contact">
+            <div class="project-title-container">
+                <p>Get In Touch</p>
+                <h1>Contact Me</h1>
+            </div>
+
+            <div>
+                <div class="contact-container">
+                    <div class="contact-details">
+                        <img src="./assets/linkedin.png" alt="linkedin" class="icons linkedin-icon"/>
+                        <p><a href="https://www.linkedin.com/in/kalila-cna/">LinkedIn</a></p>
+                    </div>
+                    <div class="contact-details">
+                        <img src="./assets/email.png" alt="email" class="icons email-icon"/>
+                        <p><a href="mailto:cna.kalila@gmail.com">cna.kalila@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <nav>
+                <div class="footer-nav">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#coding-profiles">Coding profiles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            <nav>  
+        </footer>
+        <div>
+            <p class="copyright">Copyright &#169; 2023 Kalila CNA. All Rights Reserved.</p>
+        </div>
+        
+        
+        
+</body>
+</html>
